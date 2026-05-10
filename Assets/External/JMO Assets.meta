@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 5c5454da37df7bc41a55f4d819f57ad6
+folderAsset: yes
+DefaultImporter:
+=======
+<<<<<<<< HEAD:Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+<<<<<<< HEAD
+guid: 2e498d1c8094910479dc3e1b768306a4
+=======
+guid: 056a6e6689f41a44ab2acee7983d4b06
+>>>>>>> f1472fd9233e6497d86a76d99556e2cf88db6cea
+NativeFormatImporter:
+========
+guid: 976974e4d3018034e87caeb9f51f20f6
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> develop:Assets/JMO Assets.meta
+>>>>>>> develop
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

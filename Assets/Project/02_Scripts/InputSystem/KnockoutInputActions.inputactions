@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "name": "KnockoutInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "3123de15-dd66-435d-a4ac-a3d4bc461451",
+            "actions": [
+                {
+                    "name": "AimPress",
+                    "type": "Button",
+                    "id": "147e3a6c-8820-4db6-8d49-11dc21e92d81",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "93e78ca4-d03a-4a4a-8761-9e3f105056f1",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AimPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "99124473-f670-4ba1-8f9b-e23d3e1b5bf6",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AimPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

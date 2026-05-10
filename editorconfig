@@ -1,0 +1,137 @@
+root = true
+
+[*.cs]
+
+############################
+# 기본 스타일
+############################
+indent_style = space
+indent_size = 4
+
+############################
+# 접근 제한자 반드시 명시
+############################
+dotnet_style_require_accessibility_modifiers = always:error
+
+############################
+# 클래스 / 구조체 PascalCase
+############################
+dotnet_naming_rule.types_should_be_pascal.severity = warning
+dotnet_naming_rule.types_should_be_pascal.symbols = types
+dotnet_naming_rule.types_should_be_pascal.style = pascal_case
+
+dotnet_naming_symbols.types.applicable_kinds = class, struct
+dotnet_naming_symbols.types.applicable_accessibilities = *
+dotnet_naming_symbols.types.required_modifiers = 
+
+dotnet_naming_style.pascal_case.capitalization = pascal_case
+
+############################
+# Property PascalCase
+############################
+dotnet_naming_rule.properties_should_be_pascal.severity = warning
+dotnet_naming_rule.properties_should_be_pascal.symbols = properties
+dotnet_naming_rule.properties_should_be_pascal.style = pascal_case
+
+dotnet_naming_symbols.properties.applicable_kinds = property
+dotnet_naming_symbols.properties.applicable_accessibilities = *
+dotnet_naming_symbols.properties.required_modifiers = 
+
+############################
+# 변수 camelCase
+############################
+dotnet_naming_rule.variables_should_be_camel.severity = warning
+dotnet_naming_rule.variables_should_be_camel.symbols = variables
+dotnet_naming_rule.variables_should_be_camel.style = camel_case
+
+dotnet_naming_symbols.variables.applicable_kinds = local
+dotnet_naming_symbols.variables.applicable_accessibilities = *
+dotnet_naming_symbols.variables.required_modifiers = 
+
+dotnet_naming_style.camel_case.capitalization = camel_case
+
+############################
+# private 필드: _camelCase
+############################
+dotnet_naming_rule.private_fields_should_have_underscore.severity = warning
+dotnet_naming_rule.private_fields_should_have_underscore.symbols = private_fields
+dotnet_naming_rule.private_fields_should_have_underscore.style = underscore_camel
+
+dotnet_naming_symbols.private_fields.applicable_kinds = field
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+
+dotnet_naming_style.underscore_camel.capitalization = camel_case
+dotnet_naming_style.underscore_camel.required_prefix = _
+
+############################
+# const 필드: PascalCase
+############################
+dotnet_naming_symbols.const_fields.applicable_kinds = field
+dotnet_naming_symbols.const_fields.required_modifiers = const
+
+dotnet_naming_style.pascal_case.capitalization = pascal_case
+
+dotnet_naming_rule.const_pascal.symbols = const_fields
+dotnet_naming_rule.const_pascal.style = pascal_case
+dotnet_naming_rule.const_pascal.severity = warning
+
+####################################
+# static readonly 필드: PascalCase
+####################################
+dotnet_naming_symbols.static_readonly_fields.applicable_kinds = field
+dotnet_naming_symbols.static_readonly_fields.required_modifiers = static, readonly
+
+dotnet_naming_rule.static_readonly_pascal.symbols = static_readonly_fields
+dotnet_naming_rule.static_readonly_pascal.style = pascal_case
+dotnet_naming_rule.static_readonly_pascal.severity = warning
+
+############################
+# Unity Serialized Fields 필드
+############################
+# Unity Serialized Fields - Naming Rules
+dotnet_naming_rule.unity_serialized_field_rule.symbols = unity_serialized_field_symbols
+dotnet_naming_rule.unity_serialized_field_rule.style = unity_serialized_field_style
+dotnet_naming_rule.unity_serialized_field_rule.severity = suggestion
+
+# Symbol spec: Private fields with [SerializeField]
+dotnet_naming_symbols.unity_serialized_field_symbols.applicable_kinds = field
+dotnet_naming_symbols.unity_serialized_field_symbols.applicable_accessibilities = private
+dotnet_naming_symbols.unity_serialized_field_symbols.required_modifiers = serialized_field
+
+# Naming style: Starts with _
+dotnet_naming_style.unity_serialized_field_style.required_prefix = _
+dotnet_naming_style.unity_serialized_field_style.required_suffix = 
+dotnet_naming_style.unity_serialized_field_style.capitalization = camel_case
+
+
+
+############################
+# partial class 금지
+############################
+dotnet_diagnostic.CA1501.severity = none
+dotnet_diagnostic.SA1402.severity = error
+dotnet_diagnostic.IDE0060.severity = none
+
+# partial 자체 금지는 Roslyn 기본 규칙이 없어서
+# Rider inspection 사용 권장 (아래 참고)
+
+############################
+# LINQ 사용 금지 (완전 금지는 불가)
+############################
+# System.Linq 사용 시 경고
+dotnet_diagnostic.IDE0005.severity = warning
+
+# Rider에서 "Use of LINQ" inspection 별도 설정 필요
+
+############################
+# Unity 스타일 관련
+############################
+# private 필드 직렬화 허용
+dotnet_style_prefer_auto_properties = true:silent
+
+############################
+# 기타 권장
+############################
+csharp_style_var_for_built_in_types = false:error
+csharp_style_var_when_type_is_apparent = false:error
+csharp_style_var_elsewhere = false:error

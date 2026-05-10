@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png.meta
+guid: 97c83ef8555216848ba4f98a7496a917
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+========
+guid: c228b312d8a11094b93a5c6ac11e6352
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+>>>>>>>> feat/Start_Menu:Assets/05_Image/Ice button pack/Ice Button.png.meta
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+<<<<<<<< HEAD:Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png.meta
+    wrapW: 1
+  nPOTScale: 1
+========
+    wrapW: 0
+  nPOTScale: 0
+>>>>>>>> feat/Start_Menu:Assets/05_Image/Ice button pack/Ice Button.png.meta
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+<<<<<<<< HEAD:Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png.meta
+========
+  swizzle: 50462976
+  cookieLightType: 0
+>>>>>>>> feat/Start_Menu:Assets/05_Image/Ice button pack/Ice Button.png.meta
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+<<<<<<<< HEAD:Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png.meta
+    textureCompression: 2
+========
+    textureCompression: 1
+>>>>>>>> feat/Start_Menu:Assets/05_Image/Ice button pack/Ice Button.png.meta
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+<<<<<<<< HEAD:Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png.meta
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+========
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+>>>>>>>> feat/Start_Menu:Assets/05_Image/Ice button pack/Ice Button.png.meta
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+<<<<<<<< HEAD:Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png.meta
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+========
+    ignorePlatformSupport: 0
+>>>>>>>> feat/Start_Menu:Assets/05_Image/Ice button pack/Ice Button.png.meta
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18353
+  packageName: Fantasy Skybox FREE
+  packageVersion: 1.6.5
+  assetPath: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png
+  uploadId: 699843
