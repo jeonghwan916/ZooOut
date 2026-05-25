@@ -102,3 +102,7 @@ InitTestScene*.unity*
 # Code Convention file
 .editorconfig
 
+
+# Photon local credentials
+/Assets/Photon/Fusion/Resources/PhotonAppSettings.asset
+/Assets/Photon/Fusion/Resources/PhotonAppSettings.asset.meta
